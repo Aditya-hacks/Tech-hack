@@ -1,2 +1,3 @@
-# Tech-hack
-Tech Hack is your one-stop destination for comprehensive cyber security education and resources. Our website is dedicated to empowering individuals with the knowledge and skills they need to navigate the ever-evolving world of digital security.
+# educationWebsite
+live view:
+https://cinar00-education-website-html-css-js.netlify.app
