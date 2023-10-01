@@ -1,0 +1,59 @@
+/* Navigation bar styles */
+nav {
+    background-color: #333; /* Background color */
+    color: black; /* Text color */
+    padding: 10px 0; /* Padding top and bottom */
+}
+
+.container.nav__container {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+/* Logo styles */
+h4 {
+    margin: 0;
+    font-size: 24px;
+    color: white; /* Text color */
+}
+
+/* Menu styles */
+ul.nav__menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+ul.nav__menu li {
+    margin-right: 20px;
+}
+
+ul.nav__menu li:last-child {
+    margin-right: 0;
+}
+
+/* Menu link styles */
+ul.nav__menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Button styles */
+button#open-menu-btn, button#close-menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    padding: 5px;
+}
+
+/* Button hover styles */
+button#open-menu-btn:hover, button#close-menu-btn:hover {
+    background-color: #555;
+    border-radius: 50%;
+}
